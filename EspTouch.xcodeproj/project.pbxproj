@@ -11,6 +11,41 @@
 		CC90818F26581318003A1C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90818E26581318003A1C76 /* ContentView.swift */; };
 		CC90819126581319003A1C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC90819026581319003A1C76 /* Assets.xcassets */; };
 		CC90819426581319003A1C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC90819326581319003A1C76 /* Preview Assets.xcassets */; };
+		CC90819E265813E1003A1C76 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC90819D265813E1003A1C76 /* ExternalAccessory.framework */; };
+		CC9081AE26581498003A1C76 /* ESPProvisioningUDP.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081A126581498003A1C76 /* ESPProvisioningUDP.m */; };
+		CC9081AF26581498003A1C76 /* ESPProvisioningRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081A326581498003A1C76 /* ESPProvisioningRequest.m */; };
+		CC9081B026581498003A1C76 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC9081A626581498003A1C76 /* README.md */; };
+		CC9081B126581498003A1C76 /* ESPProvisioningResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081A726581498003A1C76 /* ESPProvisioningResult.m */; };
+		CC9081B226581498003A1C76 /* ESPProvisioningParams.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081AB26581498003A1C76 /* ESPProvisioningParams.m */; };
+		CC9081B326581498003A1C76 /* ESPProvisioner.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081AC26581498003A1C76 /* ESPProvisioner.m */; };
+		CC9081B426581498003A1C76 /* ESPPacketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081AD26581498003A1C76 /* ESPPacketUtils.m */; };
+		CC9081F0265814AA003A1C76 /* ESPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081B7265814AA003A1C76 /* ESPTools.m */; };
+		CC9081F1265814AA003A1C76 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081B8265814AA003A1C76 /* ESP_NetUtil.m */; };
+		CC9081F2265814AA003A1C76 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081B9265814AA003A1C76 /* ESP_ByteUtil.m */; };
+		CC9081F3265814AA003A1C76 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081BA265814AA003A1C76 /* ESP_WifiUtil.m */; };
+		CC9081F4265814AA003A1C76 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081BB265814AA003A1C76 /* ESP_CRC8.m */; };
+		CC9081F5265814AA003A1C76 /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081C3265814AA003A1C76 /* ESPAES.m */; };
+		CC9081F6265814AA003A1C76 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081C9265814AA003A1C76 /* AFURLResponseSerialization.m */; };
+		CC9081F7265814AA003A1C76 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081CA265814AA003A1C76 /* AFHTTPSessionManager.m */; };
+		CC9081F8265814AA003A1C76 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081CC265814AA003A1C76 /* AFURLSessionManager.m */; };
+		CC9081F9265814AA003A1C76 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081CD265814AA003A1C76 /* AFURLRequestSerialization.m */; };
+		CC9081FA265814AA003A1C76 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081CF265814AA003A1C76 /* AFNetworkReachabilityManager.m */; };
+		CC9081FB265814AA003A1C76 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081D0265814AA003A1C76 /* AFSecurityPolicy.m */; };
+		CC9081FC265814AA003A1C76 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = CC9081D5265814AA003A1C76 /* Documentation.html */; };
+		CC9081FD265814AA003A1C76 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081D6265814AA003A1C76 /* GCDAsyncUdpSocket.m */; };
+		CC9081FE265814AA003A1C76 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081D7265814AA003A1C76 /* GCDAsyncSocket.m */; };
+		CC9081FF265814AA003A1C76 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081DD265814AA003A1C76 /* DDTTYLogger.m */; };
+		CC908200265814AA003A1C76 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081E0265814AA003A1C76 /* DDASLLogger.m */; };
+		CC908201265814AA003A1C76 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081E3265814AA003A1C76 /* DDContextFilterLogFormatter.m */; };
+		CC908202265814AA003A1C76 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081E4265814AA003A1C76 /* DDDispatchQueueLogFormatter.m */; };
+		CC908203265814AA003A1C76 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081E7265814AA003A1C76 /* DDMultiFormatter.m */; };
+		CC908204265814AA003A1C76 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC9081E9265814AA003A1C76 /* README.txt */; };
+		CC908205265814AA003A1C76 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081EA265814AA003A1C76 /* DDLog.m */; };
+		CC908206265814AA003A1C76 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081ED265814AA003A1C76 /* DDAbstractDatabaseLogger.m */; };
+		CC908207265814AA003A1C76 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9081EE265814AA003A1C76 /* DDFileLogger.m */; };
+		CC90820A26581653003A1C76 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90820926581653003A1C76 /* ViewModel.swift */; };
+		CC908210265819EC003A1C76 /* ProvisioningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90820F265819EC003A1C76 /* ProvisioningListView.swift */; };
+		CC908212265819F8003A1C76 /* ProvisioningListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC908211265819F8003A1C76 /* ProvisioningListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +55,77 @@
 		CC90819026581319003A1C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC90819326581319003A1C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC90819526581319003A1C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC90819B26581325003A1C76 /* EspTouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EspTouch.entitlements; sourceTree = "<group>"; };
+		CC90819D265813E1003A1C76 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		CC9081A026581498003A1C76 /* ESPProvisioningResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioningResult.h; sourceTree = "<group>"; };
+		CC9081A126581498003A1C76 /* ESPProvisioningUDP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPProvisioningUDP.m; sourceTree = "<group>"; };
+		CC9081A226581498003A1C76 /* ESPProvisioningParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioningParams.h; sourceTree = "<group>"; };
+		CC9081A326581498003A1C76 /* ESPProvisioningRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPProvisioningRequest.m; sourceTree = "<group>"; };
+		CC9081A426581498003A1C76 /* ESPPacketUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPPacketUtils.h; sourceTree = "<group>"; };
+		CC9081A526581498003A1C76 /* ESPProvisioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioner.h; sourceTree = "<group>"; };
+		CC9081A626581498003A1C76 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC9081A726581498003A1C76 /* ESPProvisioningResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPProvisioningResult.m; sourceTree = "<group>"; };
+		CC9081A826581498003A1C76 /* ESPProvisioningUDP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioningUDP.h; sourceTree = "<group>"; };
+		CC9081A926581498003A1C76 /* ESPProvisioningListeners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioningListeners.h; sourceTree = "<group>"; };
+		CC9081AA26581498003A1C76 /* ESPProvisioningRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPProvisioningRequest.h; sourceTree = "<group>"; };
+		CC9081AB26581498003A1C76 /* ESPProvisioningParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPProvisioningParams.m; sourceTree = "<group>"; };
+		CC9081AC26581498003A1C76 /* ESPProvisioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPProvisioner.m; sourceTree = "<group>"; };
+		CC9081AD26581498003A1C76 /* ESPPacketUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPPacketUtils.m; sourceTree = "<group>"; };
+		CC9081B7265814AA003A1C76 /* ESPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTools.m; sourceTree = "<group>"; };
+		CC9081B8265814AA003A1C76 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		CC9081B9265814AA003A1C76 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		CC9081BA265814AA003A1C76 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		CC9081BB265814AA003A1C76 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		CC9081BC265814AA003A1C76 /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		CC9081BD265814AA003A1C76 /* ESPAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPAES.h; sourceTree = "<group>"; };
+		CC9081BE265814AA003A1C76 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		CC9081BF265814AA003A1C76 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		CC9081C0265814AA003A1C76 /* ESPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTools.h; sourceTree = "<group>"; };
+		CC9081C1265814AA003A1C76 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		CC9081C2265814AA003A1C76 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		CC9081C3265814AA003A1C76 /* ESPAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPAES.m; sourceTree = "<group>"; };
+		CC9081C5265814AA003A1C76 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CC9081C6265814AA003A1C76 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CC9081C7265814AA003A1C76 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CC9081C8265814AA003A1C76 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC9081C9265814AA003A1C76 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CC9081CA265814AA003A1C76 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC9081CB265814AA003A1C76 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CC9081CC265814AA003A1C76 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CC9081CD265814AA003A1C76 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CC9081CE265814AA003A1C76 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CC9081CF265814AA003A1C76 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC9081D0265814AA003A1C76 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC9081D1265814AA003A1C76 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		CC9081D2265814AA003A1C76 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CC9081D5265814AA003A1C76 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		CC9081D6265814AA003A1C76 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		CC9081D7265814AA003A1C76 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		CC9081D8265814AA003A1C76 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		CC9081D9265814AA003A1C76 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		CC9081DA265814AA003A1C76 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		CC9081DD265814AA003A1C76 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		CC9081DE265814AA003A1C76 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		CC9081DF265814AA003A1C76 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		CC9081E0265814AA003A1C76 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		CC9081E1265814AA003A1C76 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		CC9081E3265814AA003A1C76 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		CC9081E4265814AA003A1C76 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		CC9081E5265814AA003A1C76 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		CC9081E6265814AA003A1C76 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		CC9081E7265814AA003A1C76 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		CC9081E8265814AA003A1C76 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		CC9081E9265814AA003A1C76 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		CC9081EA265814AA003A1C76 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		CC9081EB265814AA003A1C76 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		CC9081EC265814AA003A1C76 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		CC9081ED265814AA003A1C76 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		CC9081EE265814AA003A1C76 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		CC9081EF265814AA003A1C76 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		CC908208265814F8003A1C76 /* EspTouch_Bridge_Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspTouch_Bridge_Headers.h; sourceTree = "<group>"; };
+		CC90820926581653003A1C76 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CC90820F265819EC003A1C76 /* ProvisioningListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningListView.swift; sourceTree = "<group>"; };
+		CC908211265819F8003A1C76 /* ProvisioningListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC90819E265813E1003A1C76 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +143,10 @@
 		CC90818026581318003A1C76 = {
 			isa = PBXGroup;
 			children = (
+				CC908208265814F8003A1C76 /* EspTouch_Bridge_Headers.h */,
 				CC90818B26581318003A1C76 /* EspTouch */,
 				CC90818A26581318003A1C76 /* Products */,
+				CC90819C265813E1003A1C76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +161,11 @@
 		CC90818B26581318003A1C76 /* EspTouch */ = {
 			isa = PBXGroup;
 			children = (
+				CC90820C265819BC003A1C76 /* Views */,
+				CC9081B5265814AA003A1C76 /* Common */,
+				CC90819F26581498003A1C76 /* ESPTouchV2 */,
+				CC90819B26581325003A1C76 /* EspTouch.entitlements */,
 				CC90818C26581318003A1C76 /* EspTouchApp.swift */,
-				CC90818E26581318003A1C76 /* ContentView.swift */,
 				CC90819026581319003A1C76 /* Assets.xcassets */,
 				CC90819526581319003A1C76 /* Info.plist */,
 				CC90819226581319003A1C76 /* Preview Content */,
@@ -67,6 +179,176 @@
 				CC90819326581319003A1C76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC90819C265813E1003A1C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC90819D265813E1003A1C76 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC90819F26581498003A1C76 /* ESPTouchV2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081A026581498003A1C76 /* ESPProvisioningResult.h */,
+				CC9081A126581498003A1C76 /* ESPProvisioningUDP.m */,
+				CC9081A226581498003A1C76 /* ESPProvisioningParams.h */,
+				CC9081A326581498003A1C76 /* ESPProvisioningRequest.m */,
+				CC9081A426581498003A1C76 /* ESPPacketUtils.h */,
+				CC9081A526581498003A1C76 /* ESPProvisioner.h */,
+				CC9081A626581498003A1C76 /* README.md */,
+				CC9081A726581498003A1C76 /* ESPProvisioningResult.m */,
+				CC9081A826581498003A1C76 /* ESPProvisioningUDP.h */,
+				CC9081A926581498003A1C76 /* ESPProvisioningListeners.h */,
+				CC9081AA26581498003A1C76 /* ESPProvisioningRequest.h */,
+				CC9081AB26581498003A1C76 /* ESPProvisioningParams.m */,
+				CC9081AC26581498003A1C76 /* ESPProvisioner.m */,
+				CC9081AD26581498003A1C76 /* ESPPacketUtils.m */,
+			);
+			path = ESPTouchV2;
+			sourceTree = "<group>";
+		};
+		CC9081B5265814AA003A1C76 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081B6265814AA003A1C76 /* ESPUtils */,
+				CC9081C4265814AA003A1C76 /* AFNetworking */,
+				CC9081D3265814AA003A1C76 /* CocoaAsyncSocket */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CC9081B6265814AA003A1C76 /* ESPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081B7265814AA003A1C76 /* ESPTools.m */,
+				CC9081B8265814AA003A1C76 /* ESP_NetUtil.m */,
+				CC9081B9265814AA003A1C76 /* ESP_ByteUtil.m */,
+				CC9081BA265814AA003A1C76 /* ESP_WifiUtil.m */,
+				CC9081BB265814AA003A1C76 /* ESP_CRC8.m */,
+				CC9081BC265814AA003A1C76 /* ESPVersionMacro.h */,
+				CC9081BD265814AA003A1C76 /* ESPAES.h */,
+				CC9081BE265814AA003A1C76 /* ESP_NetUtil.h */,
+				CC9081BF265814AA003A1C76 /* ESP_ByteUtil.h */,
+				CC9081C0265814AA003A1C76 /* ESPTools.h */,
+				CC9081C1265814AA003A1C76 /* ESP_CRC8.h */,
+				CC9081C2265814AA003A1C76 /* ESP_WifiUtil.h */,
+				CC9081C3265814AA003A1C76 /* ESPAES.m */,
+			);
+			path = ESPUtils;
+			sourceTree = "<group>";
+		};
+		CC9081C4265814AA003A1C76 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081C5265814AA003A1C76 /* AFSecurityPolicy.h */,
+				CC9081C6265814AA003A1C76 /* AFNetworkReachabilityManager.h */,
+				CC9081C7265814AA003A1C76 /* AFURLSessionManager.h */,
+				CC9081C8265814AA003A1C76 /* AFURLRequestSerialization.h */,
+				CC9081C9265814AA003A1C76 /* AFURLResponseSerialization.m */,
+				CC9081CA265814AA003A1C76 /* AFHTTPSessionManager.m */,
+				CC9081CB265814AA003A1C76 /* AFURLResponseSerialization.h */,
+				CC9081CC265814AA003A1C76 /* AFURLSessionManager.m */,
+				CC9081CD265814AA003A1C76 /* AFURLRequestSerialization.m */,
+				CC9081CE265814AA003A1C76 /* AFNetworking.h */,
+				CC9081CF265814AA003A1C76 /* AFNetworkReachabilityManager.m */,
+				CC9081D0265814AA003A1C76 /* AFSecurityPolicy.m */,
+				CC9081D1265814AA003A1C76 /* AFCompatibilityMacros.h */,
+				CC9081D2265814AA003A1C76 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CC9081D3265814AA003A1C76 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081D4265814AA003A1C76 /* GCD */,
+				CC9081DA265814AA003A1C76 /* CocoaAsyncSocket.h */,
+				CC9081DB265814AA003A1C76 /* Vendor */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		CC9081D4265814AA003A1C76 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081D5265814AA003A1C76 /* Documentation.html */,
+				CC9081D6265814AA003A1C76 /* GCDAsyncUdpSocket.m */,
+				CC9081D7265814AA003A1C76 /* GCDAsyncSocket.m */,
+				CC9081D8265814AA003A1C76 /* GCDAsyncUdpSocket.h */,
+				CC9081D9265814AA003A1C76 /* GCDAsyncSocket.h */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		CC9081DB265814AA003A1C76 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081DC265814AA003A1C76 /* CocoaLumberjack */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CC9081DC265814AA003A1C76 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081DD265814AA003A1C76 /* DDTTYLogger.m */,
+				CC9081DE265814AA003A1C76 /* DDLog.h */,
+				CC9081DF265814AA003A1C76 /* DDAbstractDatabaseLogger.h */,
+				CC9081E0265814AA003A1C76 /* DDASLLogger.m */,
+				CC9081E1265814AA003A1C76 /* DDFileLogger.h */,
+				CC9081E2265814AA003A1C76 /* Extensions */,
+				CC9081EA265814AA003A1C76 /* DDLog.m */,
+				CC9081EB265814AA003A1C76 /* DDTTYLogger.h */,
+				CC9081EC265814AA003A1C76 /* DDLog+LOGV.h */,
+				CC9081ED265814AA003A1C76 /* DDAbstractDatabaseLogger.m */,
+				CC9081EE265814AA003A1C76 /* DDFileLogger.m */,
+				CC9081EF265814AA003A1C76 /* DDASLLogger.h */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		CC9081E2265814AA003A1C76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC9081E3265814AA003A1C76 /* DDContextFilterLogFormatter.m */,
+				CC9081E4265814AA003A1C76 /* DDDispatchQueueLogFormatter.m */,
+				CC9081E5265814AA003A1C76 /* DDMultiFormatter.h */,
+				CC9081E6265814AA003A1C76 /* DDContextFilterLogFormatter.h */,
+				CC9081E7265814AA003A1C76 /* DDMultiFormatter.m */,
+				CC9081E8265814AA003A1C76 /* DDDispatchQueueLogFormatter.h */,
+				CC9081E9265814AA003A1C76 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC90820C265819BC003A1C76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC90820E265819D0003A1C76 /* List */,
+				CC90820D265819C7003A1C76 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC90820D265819C7003A1C76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC90820926581653003A1C76 /* ViewModel.swift */,
+				CC90818E26581318003A1C76 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CC90820E265819D0003A1C76 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CC90820F265819EC003A1C76 /* ProvisioningListView.swift */,
+				CC908211265819F8003A1C76 /* ProvisioningListViewModel.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +408,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9081B026581498003A1C76 /* README.md in Resources */,
 				CC90819426581319003A1C76 /* Preview Assets.xcassets in Resources */,
 				CC90819126581319003A1C76 /* Assets.xcassets in Resources */,
+				CC9081FC265814AA003A1C76 /* Documentation.html in Resources */,
+				CC908204265814AA003A1C76 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +423,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC908205265814AA003A1C76 /* DDLog.m in Sources */,
+				CC908201265814AA003A1C76 /* DDContextFilterLogFormatter.m in Sources */,
+				CC908202265814AA003A1C76 /* DDDispatchQueueLogFormatter.m in Sources */,
+				CC9081F8265814AA003A1C76 /* AFURLSessionManager.m in Sources */,
 				CC90818F26581318003A1C76 /* ContentView.swift in Sources */,
+				CC9081F0265814AA003A1C76 /* ESPTools.m in Sources */,
+				CC9081B326581498003A1C76 /* ESPProvisioner.m in Sources */,
+				CC9081FD265814AA003A1C76 /* GCDAsyncUdpSocket.m in Sources */,
 				CC90818D26581318003A1C76 /* EspTouchApp.swift in Sources */,
+				CC9081FA265814AA003A1C76 /* AFNetworkReachabilityManager.m in Sources */,
+				CC908206265814AA003A1C76 /* DDAbstractDatabaseLogger.m in Sources */,
+				CC9081F6265814AA003A1C76 /* AFURLResponseSerialization.m in Sources */,
+				CC908200265814AA003A1C76 /* DDASLLogger.m in Sources */,
+				CC9081FF265814AA003A1C76 /* DDTTYLogger.m in Sources */,
+				CC9081F5265814AA003A1C76 /* ESPAES.m in Sources */,
+				CC9081AE26581498003A1C76 /* ESPProvisioningUDP.m in Sources */,
+				CC9081F7265814AA003A1C76 /* AFHTTPSessionManager.m in Sources */,
+				CC908203265814AA003A1C76 /* DDMultiFormatter.m in Sources */,
+				CC9081F9265814AA003A1C76 /* AFURLRequestSerialization.m in Sources */,
+				CC908210265819EC003A1C76 /* ProvisioningListView.swift in Sources */,
+				CC908207265814AA003A1C76 /* DDFileLogger.m in Sources */,
+				CC9081F3265814AA003A1C76 /* ESP_WifiUtil.m in Sources */,
+				CC9081F4265814AA003A1C76 /* ESP_CRC8.m in Sources */,
+				CC90820A26581653003A1C76 /* ViewModel.swift in Sources */,
+				CC9081B426581498003A1C76 /* ESPPacketUtils.m in Sources */,
+				CC9081F2265814AA003A1C76 /* ESP_ByteUtil.m in Sources */,
+				CC9081B226581498003A1C76 /* ESPProvisioningParams.m in Sources */,
+				CC9081FB265814AA003A1C76 /* AFSecurityPolicy.m in Sources */,
+				CC9081B126581498003A1C76 /* ESPProvisioningResult.m in Sources */,
+				CC9081F1265814AA003A1C76 /* ESP_NetUtil.m in Sources */,
+				CC9081FE265814AA003A1C76 /* GCDAsyncSocket.m in Sources */,
+				CC9081AF26581498003A1C76 /* ESPProvisioningRequest.m in Sources */,
+				CC908212265819F8003A1C76 /* ProvisioningListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EspTouch/EspTouch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"EspTouch/Preview Content\"";
 				DEVELOPMENT_TEAM = 7C9772Q56V;
@@ -279,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsb9kr.EspTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = EspTouch_Bridge_Headers.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EspTouch/EspTouch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"EspTouch/Preview Content\"";
 				DEVELOPMENT_TEAM = 7C9772Q56V;
@@ -301,6 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsb9kr.EspTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = EspTouch_Bridge_Headers.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
